@@ -31,20 +31,9 @@ if (($path = ltrim($_SERVER['REQUEST_URI'], '/')) && !in_array(substr($path, 0, 
         }
       }
     </style>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P8XKW25259"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-P8XKW25259');
-    </script>
   </head>
   <body>
     <h1>RedirectMeTo</h1>
-    <p>A simple tool for redirecting you.</p>
-    <p>by <a href="https://kodieg.com" target="_new">Kodie Grantham</a></p>
-    <p><a href="https://github.com/kodie/redirectmeto" target="_new">GitHub</a></p>
     <div>
       <h2>EXAMPLES</h2>
       <p><a href="https://redirectmeto.com/https://www.google.com/search?q=puppies" target="_new">https://redirectmeto.com/https://www.google.com/search?q=puppies</a></p>
