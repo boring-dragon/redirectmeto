@@ -36,7 +36,7 @@ if (($path = ltrim($_SERVER['REQUEST_URI'], '/')) && !in_array(substr($path, 0, 
     <h1>RedirectMeTo</h1>
     <div>
       <h2>EXAMPLES</h2>
-      <p><a href="https://redirectmeto.com/https://www.google.com/search?q=puppies" target="_new">https://redirectmeto.com/https://www.google.com/search?q=puppies</a></p>
+      <p><a href="https://redirectmeto.com/https://www.google.com/search?q=boring-dragon" target="_new">https://redirectmeto.com/https://www.google.com/search?q=puppies</a></p>
       <p><a href="http://redirectmeto.com/http://localhost:4000/oauth/authorize" target="_new">http://redirectmeto.com/http://localhost:4000/oauth/authorize</a></p>
       <p><a href="http://redirectmeto.com/http://client.dev/page" target="_new">http://redirectmeto.com/http://client.dev/page</a></p>
     </div>
